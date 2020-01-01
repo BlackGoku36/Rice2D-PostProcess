@@ -12,6 +12,7 @@ vec3 tonemapReinhard(const vec3 color) {
 #endif
 
 // https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting/142
+// & https://github.com/armory3d/armory/blob/c7b641cc77cbb7ac77ae90bd209e2d533196b256/Shaders/std/tonemap.glsl#L2
 #ifdef tonemap_uncharted2
 vec3 uncharted2Tonemap(const vec3 x) {
     const float A = 0.15;
